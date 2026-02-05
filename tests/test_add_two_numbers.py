@@ -7,7 +7,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import pytest
 
-from add_two_numbers import add
+from exercise.add_two_numbers import add
 
 
 def test_add_integers():
